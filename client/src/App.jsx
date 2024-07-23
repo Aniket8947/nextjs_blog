@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Header from "./components/Header"
+import FooterComp from "./components/FooterComp"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/signin" element={<SignIn />}></Route>
             <Route path="/signup" element={ <SignUp />}></Route>
         </Routes>
+        <FooterComp />
     </BrowserRouter>
   )
 }
